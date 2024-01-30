@@ -1,0 +1,86 @@
+/* CSS Document */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(137, 84, 223);
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18rem 1rem 1rem 1rem;
+    text-align: center;
+    background-color: #F0F8FF
+}
+
+.username {
+    width: 300px;
+    background: rgb(137, 84, 223);
+    color: rgb(201, 201, 201); 
+}
+
+.username h1 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+input[type=text]{
+    padding: 10px 50px;
+    margin-top: 10px;
+    border: 1px solid rgb(150, 139, 139);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.username .username1{
+    background: white;
+} 
+
+.username .forgot a{
+    color: rgb(0, 0, 0);
+    margin:auto;
+
+}
+
+.username .submit {
+    background: rgb(137, 84, 223);
+    border:none;
+    padding:5px;
+    margin-top: 10px;
+}
+
+.username .submit a {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 4px 10px;
+}
+
+.username .signup a {
+    margin-left: 116px;
+    padding: 50px 0px;
+}
+
+.username .signup label {
+    color: rgb(0, 0, 0);
+    
+}

@@ -1,0 +1,116 @@
+/* CSS Document */
+
+.signup h3{
+    text-align:center;
+}
+
+body{
+    margin: 18rem 1rem 1rem 1rem;
+    text-align: center;
+    background-color: #F0F8FF
+}
+
+input[type=text] {
+    padding: 12px 200px;
+    margin-top: 0px;
+    border: 1px solid rgb(150, 139, 139);
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+input:hover {
+    background-color: rgb(216, 123, 130);
+}
+
+input[type="text"]::placeholder {
+    color: rgb(46, 79, 82);
+    text-align: center;
+    min-width: none;
+}
+
+.signup .note1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    color: gray;
+    text-align: left;
+    margin-right: 355px;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    color: gray;
+    text-align: center;
+    margin-left: 20px;
+    
+}
+
+h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    color: gray;
+    text-align: center;
+    
+    }
+
+
+.signup .note3{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    color: gray;
+    text-align: left;
+    margin-right: 335px;
+
+}
+
+.signup .note4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    color: gray;    
+    text-align: left;
+    margin-right: 85px;
+}
+
+
+.signup .note5{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    display: flex;
+    margin-left: 500px;
+    
+}
+
+.signup .note5 .b{
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.signup .note5 .c{
+}
+
+.signup .note5 .d{
+    text-decoration: underline;
+    color: blue;
+}
+
+.signup .checkbox{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-size: 10px;
+}
+
+.signup .submit{
+    background-color: rgb(207, 50, 77);
+    border:none;
+    cursor: pointer;
+    padding: 12px 29px;
+    border-radius: 10px;
+}
+
+.signup .submit a{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: none;
+}
